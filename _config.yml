@@ -7,9 +7,9 @@
 
 # Site Settings
 locale                   : "zh-CN"
-title                    : "Hong-Bo/Personal Homepage"
+title                    : "Personal Homepage"
 title_separator          : "-"
-name                     : &name "Hong-Bo Li"
+name                     : &name "Hong-Bo Li (李洪波)"
 description              : &description "personal description"
 url                      : https://astrohongbo.github.io/
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
