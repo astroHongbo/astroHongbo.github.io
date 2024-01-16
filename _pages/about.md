@@ -10,8 +10,8 @@ redirect_from:
 
 My research is focused on theoretical astrophysics with a broad interest in topics compact objects(white dwars and neutron stars), asteroseismology, and stellar dynamics.
 
-I am very fortunate to be advised by [Pro. Lijing Shao](https://friendshao.github.io/) 
-and [Pro. Ren-Xin Xu](https://psr.pku.edu.cn/rxx/) from Kavli Institute for Astronomy and Astrophysics [KIAA](https://kiaa.pku.edu.cn/).
+I am very fortunate to be advised by [Prof. Lijing Shao](https://friendshao.github.io/) 
+and [Prof. Ren-Xin Xu](https://psr.pku.edu.cn/rxx/) from Kavli Institute for Astronomy and Astrophysics [KIAA](https://kiaa.pku.edu.cn/).
 
 A data-driven personal website
 ======
