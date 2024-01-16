@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-My research is focused on theoretical astrophysics with a broad interest in topics compact stars (white dwars and neutron stars), asteroseismology, and stellar dynamics.
+My research is focused on astrophysics with a broad interest in topics compact stars, asteroseismology, and stellar dynamics.
 
 
 
