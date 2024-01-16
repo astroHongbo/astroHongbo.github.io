@@ -16,12 +16,10 @@ Peking University.
 
 Interests
 ======
-Neutron Stars
-Asteroseismology
+
 
 Education
 ======
-
 
 Recent and Past Work
 ======
