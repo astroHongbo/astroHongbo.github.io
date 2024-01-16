@@ -2,7 +2,6 @@
 title: "Quasi-periodic oscillations during magnetar giant flares in the strangeon star model"
 collection: publications
 permalink: https://doi.org/10.1093/mnras/stad3204
-\arxiv{2309.09847}
 excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
 date: 2024-1-16
 venue: 'Journal 1'
