@@ -8,6 +8,6 @@ redirect_from:
   - /about.html
 ---
 
-My research is focused on astrophysics with a broad interest in topics compact stars, asteroseismology, and stellar dynamics.
+My research is focused on astrophysics with a broad interest in topics compact stars, asteroseismology, gravity dynamics, and gravitational waves.
 
 
