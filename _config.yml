@@ -6,18 +6,18 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-locale                   : "zh-CN"
-title                    : "Personal Homepage"
+locale                   : "en-US"
+title                    : "Hong-Bo Li"
 title_separator          : "-"
 name                     : &name "Hong-Bo Li (李洪波)"
-description              : &description "personal description"
-url                      : https://astrohongbo.github.io/
+description              : &description "Hong-Bo Li is an astrophysicist at Peking University who studies compact stars through gravitational waves, stellar oscillations, and high-energy emission."
+url                      : "https://astrohongbo.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "https://astrohongbo.github.io/"
+repository               : "astroHongbo/astrohongbo.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
-future                   : true
+future                   : false
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
 talkmap_link             : false #change to true to add link to talkmap on talks page
 comments:
@@ -66,9 +66,12 @@ og_image                 :  # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  type                   : Person
+  name                   : "Hong-Bo Li"
+  links:
+    - "https://orcid.org/0000-0002-4850-8351"
+    - "https://inspirehep.net/authors/2841443"
+    - "https://github.com/astroHongbo"
 
 
 # Analytics
@@ -82,12 +85,12 @@ analytics:
 author:
   name             : "Hong-Bo Li (李洪波)"
   avatar           : "profile.png"
-  bio              : ""
+  bio              : "Compact stars · gravitational waves · high-energy astrophysics"
   location         : "Beijing, China"
-  employer         :
+  employer         : "Peking University"
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : # "http://yourfullgooglescholarurl.com"
-  email            : "lihb2020@stu.pku.edu.cn"
+  email            : "lihb2020@pku.edu.cn"
   researchgate     : # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -104,6 +107,8 @@ author:
   lastfm           :
   linkedin         :
   orcid            : "https://orcid.org/0000-0002-4850-8351"
+  ads              : "https://ui.adsabs.harvard.edu/search/q=orcid%3A0000-0002-4850-8351&sort=date%20desc%2C%20bibcode%20desc&p_=0"
+  inspire          : "https://inspirehep.net/authors/2841443?ui-citation-summary=true"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
@@ -130,6 +135,7 @@ exclude:
   - .jekyll-assets-cache
   - .sass-cache
   - CHANGELOG
+  - CONTRIBUTING.md
   - Capfile
   - Gemfile
   - Gruntfile.js
@@ -141,9 +147,36 @@ exclude:
   - assets/js/vendor
   - config
   - gulpfile.js
+  - images/3953273590_704e3899d5_m.jpg
+  - images/500x300.png
+  - images/bio-photo-2.jpg
+  - images/bio-photo.jpg
+  - images/browserconfig.xml
+  - images/editing-talk.png
+  - images/foo-bar-identity-th.jpg
+  - images/foo-bar-identity.jpg
+  - images/image-alignment-1200x4002.jpg
+  - images/image-alignment-150x150.jpg
+  - images/image-alignment-300x200.jpg
+  - images/image-alignment-580x300.jpg
+  - images/manifest.json
+  - images/mstile-144x144.png
+  - images/mstile-150x150.png
+  - images/mstile-310x150.png
+  - images/mstile-310x310.png
+  - images/mstile-70x70.png
+  - images/paragraph-indent.png
+  - images/paragraph-no-indent.png
+  - images/safari-pinned-tab.svg
+  - images/site-logo.png
   - log
+  - markdown_generator
   - node_modules
   - package.json
+  - files/paper1.pdf
+  - files/paper2.pdf
+  - files/paper3.pdf
+  - talkmap
   - tmp
   - vendor
 keep_files:
@@ -255,7 +288,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Shanghai
 
 
 # Plugins
